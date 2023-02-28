@@ -10,7 +10,7 @@ Which variables are significant in predicting the price of a house, and
 How well those variables describe the price of a house.
 Determine the optimal value of lambda for ridge and lasso regression.
 
-General Information:
+## General Information:
 
 Here we have to create a linear regression model, Ridge Regression model and Lasso Regression model for the probelem statement.
 I am required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
@@ -18,14 +18,14 @@ The objective of this project is to analyse the dataset and come up with a advan
 
 The proivided dataset has different fields like MSSubClass, MSZoning,LotArea, LandContour,Neighborhood, YearBuilt,MasVnrArea,Foundation.
 
-Conclusions
+## Conclusions
 Both Ridge and Lasso model perform slightly better than linear regression model and give higher test score. Lasso model outperforms Ridge if compared. Hence the best model choosed is Lasso. The alpha value at which Lasso performs best is 0.0001.
 
-Technologies Used
-seaborn 0.11.2
-pandas 1.0.3
-numpy 1.15.4
-scikit-learn 0.20.1
+## Technologies Used
+* seaborn 0.11.2
+* pandas 1.0.3
+* numpy 1.15.4
+* scikit-learn 0.20.1
 
-Acknowledgements
+## Acknowledgements
 This project was inspired by the Advance Regression Course conducted by IIITB and UpGrad.
